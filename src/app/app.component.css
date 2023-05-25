@@ -1,0 +1,15 @@
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.post{
+   width: 500px;
+   align-self: center;
+   align-items: center;
+   background-color: rgb(4, 176, 245);
+   padding-top: 10px;
+   margin-top: 10px;
+}
+.post > p {
+    text-align: center;
+}
